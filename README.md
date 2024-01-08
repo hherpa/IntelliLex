@@ -33,7 +33,7 @@ We must realize that the user treats the LLM as a black box, i.e. he is not inte
   | 3.4 sub-department of writing function calls when needed
 4. build department
 ```
-These are just the departments and sub-departments of autogen2autogen, but we also have a few new features in the agents themselves, so let's break them down in more detail using department #2 as an example.
+These are just the departments and sub-departments of autogen2autogen, but we also have a few new features in the agents themselves, so let's break them down in more detail using department №2 as an example.
 ```
 2. department for writing a list of roles (chat participants):
   | Role List Engineer
@@ -60,4 +60,4 @@ Role_Name (to chat_manager):
 Thereby replacing huge paragraphs of tooltips with: `@agent_name &agent_command`.
 ### Universal agent to improve group chat accuracy.
 There are also universal agents in autogen such as critic and planer, their role-prompts don't need to be edited and so they swing from one chat to another, but we want to introduce an agent that can universally improve the accuracy of any autogen chat - Motivator.
-More and more often we started to see studies about the impact of manipulation and motivations in prompts on LLM response quality. We decided to collect all prompts from these studies (from "my career depends on this..." to "now may...") and create an agent that will adjust to each role in the chat and before she writes something improve her result with the help of such "Frankenstein" of prompts. This agent is the Motivator in department 2
+More and more often we started to see studies about the impact of manipulation and motivations in prompts on LLM response quality. We decided to collect all prompts from these studies (from "my career depends on this..." to "now may...") and create an agent that will adjust to each role in the chat and before she writes something improve her result with the help of such "Frankenstein" of prompts. This agent is the Motivator in department №2
