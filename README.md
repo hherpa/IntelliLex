@@ -50,6 +50,7 @@ Thus, we began to receive the correct results from the agent "role list engineer
 
 Also CLI_Agents class partially solves the problem with hallucinations in group chat. "Regularory agent" can wait for the condition of facts not matching the ones it has and use the command to replace the agent's memory fragment.
 `&memory_edit <fragment to be replaced> <fragment to be replaced>`.
+There are an unlimited number of ideas that can still be done through the agent of the CLI_Agent class. CLI_Agent could be a great update for autogen, because for its community it is a big leap in accuracy, automation of the process and a huge field for experiments.
 ## Continuing the theme of the CLI_Agents class...
 We were very much hampered by the fact that only one agent writes to one agent (while respecting a certain queue) - this slows down the group chat process very much, so in larger departments we added a "reference model" to each agent. What is a reference model? Roughly speaking it's an abstraction for an agent on how to address multiple people in a single message using @ to tag each person by nickname. Just this small addition has increased the productivity and efficiency of chat by leaps and bounds. You can attach a lot of screenshots here, but everything works in the same way:
 ```
