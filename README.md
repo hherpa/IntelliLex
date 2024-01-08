@@ -45,6 +45,7 @@ CLI_Agents is a class of agents that analyze the chat to find the fulfillment of
 * ```&cleared_out``` - indicates that the list is written incorrectly and does not concern the user's task
 * ```&add_more``` - indicates that the list is too short and should be enlarged.
 * ```&only_list``` - indicates that the agent outputs something else besides the list that should have been corrected.
+Thus, we began to receive the correct results from the agent "role list engineer". The user can simply describe their trigger conditions to the agent of the CLI_Agent class and get the correct results in the same way!
 
 Also CLI_Agents class partially solves the problem with hallucinations in group chat. "Regularory agent" can wait for the condition of facts not matching the ones it has and use the command to replace the agent's memory fragment.
 `&memory_edit <fragment to be replaced> <fragment to be replaced>`.
