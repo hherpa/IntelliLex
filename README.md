@@ -1,5 +1,4 @@
 # IntelliLex
-IntelliLex -
 
 ## Contents
 1. [Autogen-conveyor](#Autogen_conveyor)
