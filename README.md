@@ -104,6 +104,7 @@ Next, the generated list of agent names goes to the class selection department a
 ![image](https://github.com/hherpa/Conveyer2Autogen-RU/assets/146547175/746c212c-925c-4744-b58e-462a2c6052c8)
 
 ### 2.1 Build autogen configuration
+
 ![image](https://github.com/hherpa/Conveyer2Autogen-RU/assets/146547175/206eb49a-e71e-4c2a-ad06-de1193d4d57f)
 
 This item should be at the very beginning along with the promt input from the user, but due to technical issues it is here (obviously without access to llm item 1 and 2 is not possible...). In this point we don't use the autogen group chat, we just request the API key and insert it into llm_config. It is important to note that the API key does not have to be from ChatGPT, it can also be from textgen-webui, and therefore the user can use open-source models as well. Also a variant of building multi-model configurations has already been developed.
