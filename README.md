@@ -101,6 +101,7 @@ Here everything is intuitive on the input of the user promt, and already on the 
 
 Next, the generated list of agent names goes to the class selection department and although it may seem like a simple process, as almost all classes will be the same, it is not. We also consider adding RetrieveUserProxyAgent and RetrieveAssistantAgent to the selection list with the possibility of automatic filling of RAG using LLM_web_search, SerpAPI or other similar tools.
 * **Example of implementation in TUI:**
+  
 ![image](https://github.com/hherpa/Conveyer2Autogen-RU/assets/146547175/746c212c-925c-4744-b58e-462a2c6052c8)
 
 ### 2.1 Build autogen configuration
