@@ -56,7 +56,7 @@ When using autogen, it is obvious that the correct approach is "one agent - one 
 ## Typing of autogen agents
 Based on our experience with autogen - agents are of two types:
 
-![AgentTypesRu](https://github.com/hherpa/Conveyer2Autogen-RU/assets/146547175/c1a509a0-1b17-42c9-87bd-ce2a809ab122)
+![Group 63](https://github.com/hherpa/IntelliLex/assets/146547175/c687134c-ea65-474b-ac8d-853d3933bfb1)
 
 <a name="boost_agent"></a>
 ## Accuracy Boost Agent
