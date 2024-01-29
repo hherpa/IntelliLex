@@ -1,5 +1,4 @@
 # IntelliLex
-![background-for-a-github-project-focusing-on-comple (4)](https://github.com/hherpa/IntelliLex/assets/146547175/7a141241-851f-4124-8dab-576eac2afd65)
 
 ## Contents
 1. [Autogen-conveyor](#Autogen_conveyor)
